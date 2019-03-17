@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace MsgPhp\User\Tests\Entity\Fields;
+namespace MsgPhp\User\Tests\Model;
 
 use MsgPhp\Domain\DomainCollectionInterface;
-use MsgPhp\User\Entity\Fields\AttributeValuesField;
 use MsgPhp\User\Entity\UserAttributeValue;
+use MsgPhp\User\Model\AttributeValuesField;
 use PHPUnit\Framework\TestCase;
 
 final class AttributeValuesFieldTest extends TestCase
