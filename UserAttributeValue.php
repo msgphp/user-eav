@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace MsgPhp\User\Entity;
+namespace MsgPhp\User;
 
-use MsgPhp\Eav\Entity\AttributeValue;
+use MsgPhp\Eav\AttributeValue;
 use MsgPhp\Eav\Model\EntityAttributeValue;
 use MsgPhp\User\Model\UserField;
 

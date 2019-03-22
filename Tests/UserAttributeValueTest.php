@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace MsgPhp\User\Tests\Entity;
+namespace MsgPhp\User\Tests;
 
+use MsgPhp\Eav\AttributeValue;
 use MsgPhp\Eav\AttributeValueIdInterface;
-use MsgPhp\Eav\Entity\AttributeValue;
-use MsgPhp\User\Entity\User;
-use MsgPhp\User\Entity\UserAttributeValue;
+use MsgPhp\User\User;
+use MsgPhp\User\UserAttributeValue;
 use PHPUnit\Framework\TestCase;
 
 final class UserAttributeValueTest extends TestCase
