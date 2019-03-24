@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MsgPhp\User\Tests\Infra\Doctrine;
+namespace MsgPhp\User\Tests\Infrastructure\Doctrine;
 
-use MsgPhp\Domain\Infra\Doctrine\MappingConfig;
-use MsgPhp\User\Infra\Doctrine\EavObjectMappings;
+use MsgPhp\Domain\Infrastructure\Doctrine\MappingConfig;
+use MsgPhp\User\Infrastructure\Doctrine\EavObjectMappings;
 use PHPUnit\Framework\TestCase;
 
 final class EavObjectMappingsTest extends TestCase

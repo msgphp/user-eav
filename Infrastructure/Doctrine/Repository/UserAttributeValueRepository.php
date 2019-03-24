@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace MsgPhp\User\Infra\Doctrine\Repository;
+namespace MsgPhp\User\Infrastructure\Doctrine\Repository;
 
 use MsgPhp\Domain\DomainCollectionInterface;
 use MsgPhp\Eav\AttributeIdInterface;
 use MsgPhp\Eav\AttributeValueIdInterface;
-use MsgPhp\Eav\Infra\Doctrine\Repository\EntityAttributeValueRepositoryTrait;
+use MsgPhp\Eav\Infrastructure\Doctrine\Repository\EntityAttributeValueRepositoryTrait;
 use MsgPhp\User\Repository\UserAttributeValueRepositoryInterface;
 use MsgPhp\User\UserAttributeValue;
 use MsgPhp\User\UserIdInterface;

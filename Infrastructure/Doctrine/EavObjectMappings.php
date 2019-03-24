@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MsgPhp\User\Infra\Doctrine;
+namespace MsgPhp\User\Infrastructure\Doctrine;
 
-use MsgPhp\Domain\Infra\Doctrine\MappingConfig;
-use MsgPhp\Domain\Infra\Doctrine\ObjectMappingProviderInterface;
+use MsgPhp\Domain\Infrastructure\Doctrine\MappingConfig;
+use MsgPhp\Domain\Infrastructure\Doctrine\ObjectMappingProviderInterface;
 use MsgPhp\User\Model;
 use MsgPhp\User\UserAttributeValue;
 
