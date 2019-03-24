@@ -9,7 +9,7 @@ use MsgPhp\User\UserAttributeValue;
 /**
  * @author Roland Franssen <franssen.roland@gmail.com>
  */
-class UserAttributeValueChangedEvent
+class UserAttributeValueChanged
 {
     /**
      * @var UserAttributeValue

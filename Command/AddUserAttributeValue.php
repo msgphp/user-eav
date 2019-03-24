@@ -4,21 +4,21 @@ declare(strict_types=1);
 
 namespace MsgPhp\User\Command;
 
-use MsgPhp\Eav\AttributeIdInterface;
-use MsgPhp\User\UserIdInterface;
+use MsgPhp\Eav\AttributeId;
+use MsgPhp\User\UserId;
 
 /**
  * @author Roland Franssen <franssen.roland@gmail.com>
  */
-class AddUserAttributeValueCommand
+class AddUserAttributeValue
 {
     /**
-     * @var UserIdInterface
+     * @var UserId
      */
     public $userId;
 
     /**
-     * @var AttributeIdInterface
+     * @var AttributeId
      */
     public $attributeId;
 
@@ -35,7 +35,7 @@ class AddUserAttributeValueCommand
     /**
      * @param mixed $value
      */
-    final public function __construct(UserIdInterface $userId, AttributeIdInterface $attributeId, $value, array $context = [])
+    final public function __construct(UserId $userId, AttributeId $attributeId, $value, array $context = [])
     {
         $this->userId = $userId;
         $this->attributeId = $attributeId;

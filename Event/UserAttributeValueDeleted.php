@@ -9,21 +9,15 @@ use MsgPhp\User\UserAttributeValue;
 /**
  * @author Roland Franssen <franssen.roland@gmail.com>
  */
-class UserAttributeValueAddedEvent
+class UserAttributeValueDeleted
 {
     /**
      * @var UserAttributeValue
      */
     public $userAttributeValue;
 
-    /**
-     * @var array
-     */
-    public $context;
-
-    final public function __construct(UserAttributeValue $userAttributeValue, array $context)
+    final public function __construct(UserAttributeValue $userAttributeValue)
     {
         $this->userAttributeValue = $userAttributeValue;
-        $this->context = $context;
     }
 }
