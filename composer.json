@@ -18,8 +18,8 @@
         }
     ],
     "require": {
-        "msgphp/eav": "^0.13",
-        "msgphp/user": "^0.13"
+        "msgphp/eav": "^0.14",
+        "msgphp/user": "^0.14"
     },
     "config": {
         "preferred-install": {
