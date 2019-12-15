@@ -8,6 +8,9 @@ use MsgPhp\User\Model\AttributeValuesField;
 use MsgPhp\User\UserAttributeValue;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @internal
+ */
 final class AttributeValuesFieldTest extends TestCase
 {
     public function testField(): void

@@ -10,6 +10,9 @@ use MsgPhp\User\User;
 use MsgPhp\User\UserAttributeValue;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @internal
+ */
 final class UserAttributeValueTest extends TestCase
 {
     public function testCreate(): void

@@ -8,6 +8,9 @@ use MsgPhp\Domain\Infrastructure\Doctrine\MappingConfig;
 use MsgPhp\User\Infrastructure\Doctrine\UserEavObjectMappings;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @internal
+ */
 final class UserEavObjectMappingsTest extends TestCase
 {
     public function testMapping(): void
