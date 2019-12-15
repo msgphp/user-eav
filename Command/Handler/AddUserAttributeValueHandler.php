@@ -34,7 +34,7 @@ final class AddUserAttributeValueHandler
     {
         $context = $command->context;
         $context['user'] = $this->factory->reference(User::class, ['id' => $command->userId]);
-        $context['attributeValue'] = (array) $context['attributeValue'] ?? [];
+        $context['attributeValue'] = (array) ($context['attributeValue'] ?? []);
         $context['attributeValue']['id'] = $context['attributeValue']['id'] ?? $this->factory->create(AttributeValueId::class);
         $context['attributeValue']['attribute'] = $this->factory->reference(Attribute::class, ['id' => $command->attributeId]);
         $context['attributeValue']['value'] = $command->value;
